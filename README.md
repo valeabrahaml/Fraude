@@ -21,14 +21,16 @@ Sigue estos pasos para configurar y ejecutar la aplicación FastAPI:
 Clona este repositorio en tu máquina local:
 
 ```bash
+>
 git clone https://github.com/valeabrahaml/fraude.git
 cd fraude
 
 Abrir una terminal y asegurarse que se encuentre dentro de la carpeta, en la terminal correr estos comandos:
-docker-compose build
-docker-compose up
 
-Para probar he creado un archivo:
+Primero: docker-compose build
+segundo: docker-compose up
+
+Para probar he creado un archivo, se puede correr en una nueva terminal:
 python test_api.py
 
 al correrlo en la terminal debe de salir la probabilidad de predicción, puede modificar el archivo para probar más valores con el modelo.
