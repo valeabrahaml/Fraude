@@ -12,7 +12,7 @@ Antes de comenzar, asegúrate de tener Docker y Docker Compose instalados en tu 
 - [Instalación de Docker](https://docs.docker.com/get-docker/)
 - [Instalación de Docker Compose](https://docs.docker.com/compose/install/)
 
-## Empezando
+## Instrucciones
 
 Sigue estos pasos para configurar y ejecutar la aplicación FastAPI:
 
