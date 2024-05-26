@@ -31,5 +31,14 @@ docker-compose up
 Para probar he creado un archivo:
 python test_api.py
 
-al correrlo en la terminal debe de salir la probabilidad de predicción, puede modificar el archivo para probar más valores con el modelo. 
+al correrlo en la terminal debe de salir la probabilidad de predicción, puede modificar el archivo para probar más valores con el modelo.
+
+
+Al mismo tiempo, he añadido el codigo con el que se entreno el modelo, en caso de dudas acerca de como se hizo:
+-Preproceso de datos: creación y eliminación de columnas
+- Undersampling
+- Encontrar hiperparametros con Optuna
+- Entrenamiento del modelo con esos hiperparametros
+- Evaluación del modelo
+- Caso de negocio: Ganancia y perdida para encontrar el treshold ideal. 
 
